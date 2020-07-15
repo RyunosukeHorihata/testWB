@@ -1,5 +1,5 @@
 #ビンゴカード定義
-def make_bingo_card
+def set_bingo_card
     #横(i)の配列作成
     all_row_bingo_card_words = []
     row_bingo_card_words = []
@@ -55,6 +55,6 @@ def match_check
         #falseの場合 "no"
 end
 
-make_bingo_card
+set_bingo_card
 select_words
 match_check

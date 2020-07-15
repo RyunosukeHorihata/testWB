@@ -30,6 +30,18 @@ def make_bingo_card
 
 end
 
+#選出ワードの配列化
+def select_words
+    selected_word = []
+    n = gets.to_i
+    n.times do
+        w = gets
+        selected_word << w
+    end
+
+end
+
 
 
 make_bingo_card
+select_words

@@ -15,18 +15,18 @@ def set_bingo_card
   end
   
   #縦(j)の配列作成
-  all_col_bingo_card_words = []
-  col_bingo_card_words = []
-  i = 0
-  j = 0
-  while j <= (s-1)
-    while i <= (s-1)
-      i += 1
-    end
-    col_bingo_card_words = all_row_bingo_card_words[i][j]
-    all_col_bingo_card_words << col_bingo_card_words
-    j += 1
-  end
+  # all_col_bingo_card_words = []
+  # col_bingo_card_words = []
+  # i = 0
+  # j = 0
+  # while j <= (s-1)
+  #   while i <= (s-1)
+  #     i += 1
+  #   end
+  #   col_bingo_card_words = all_row_bingo_card_words[i][j]
+  #   all_col_bingo_card_words << col_bingo_card_words
+  #   j += 1
+  # end
 
   #斜めの配列作成
 

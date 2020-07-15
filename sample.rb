@@ -41,7 +41,20 @@ def select_words
 
 end
 
+#正誤判定
+def match_check
+    #横(i)の配列との正誤判定
+        #選出ワードと各横配列の一致確認
+    #縦(j)の配列との正誤判定
+        #選出ワードと各縦配列の一致確認
+    #斜めの配列との正誤判定
+        #選出ワードと斜め配列の一致確認
 
+    #横・縦・斜めいずれかで1つでも完全一致の配列があればtrueそれ以外はfalse
+        #trueの場合 "yes"
+        #falseの場合 "no"
+end
 
 make_bingo_card
 select_words
+match_check
